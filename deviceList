@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>文档标题</title>
+  </head>
+  <style type="text/css">
+    body {
+      background-color: #fff;
+    }
+    .module {
+      width: 100%;
+    }
+    .paragraph {
+      margin-left: 15px;
+      margin-right: 15px;
+      margin-bottom: 20px;
+      text-align: justify;
+      width: 100%;
+    }
+    h3 {
+      color: black;
+      margin-top: 10px;
+    }
+    a {
+      color: #337ab7;
+      text-decoration: none;
+    }
+    .capabilities {
+      margin-left: 50px;
+      margin-right: 0px;
+      margin-top: 15px;
+    }
+    .capabilities-details {
+      margin-bottom: 10px;
+      width: 100%;
+    }
+    .col-md-6 {
+      width: 40%;
+      display: inline-block;
+    }
+    .capability-title {
+      margin-bottom: 0;
+      text-align: left;
+      color: black;
+      font-family: "Segoe UI","Segoe WP",Tahoma,Arial,sans-serif;
+      font-size: 13px;
+      font-weight: bold;
+      display: inline-block;
+    }
+    .hr-details {
+      margin: 0 15px;
+      border-top: 2px solid #eee;
+      margin-left: 60px;
+      width: 60%;
+    }
+    .paragraph-title{
+      padding-left: 43px;
+    }
+  </style>
+  <body>
+    <div class="module">
+      <!-- 模块示例 -->
+      <hr class="hr-details"/>
+      <div class="paragraph">
+        <div class="paragraph-title">
+          <h3>设备规格</h3>
+          <a href="https://openblocks.plathome.co.jp/products/obs_iot/vx2/">设备技术规格</a>
+        </div>
+        <div class="capabilities">
+          <div class="capabilities-details">
+            <div class="col-md-6">
+              <h4 class="capability-title">处理器</h4>
+              <div>Intel Atom E3805 1.3GHz</div>
+            </div>
+            <div class="col-md-6">
+              <h4 class="capability-title">芯片制造商</h4>
+              <div>Intel</div>
+            </div>
+          </div>
+          <div class="capabilities-details">
+            <div class="col-md-6">
+              <h4 class="capability-title">内存(RAM)</h4>
+              <div>2GB</div>
+            </div>
+            <div class="col-md-6">
+              <h4 class="capability-title">行业认证</h4>
+              <div class="capability-value">N/A</div>
+            </div>
+          </div>
+          <div class="capabilities-details">
+            <div class="col-md-6">
+              <h4 class="capability-title">内存(闪存)</h4>
+              <div>32GB</div>
+            </div>
+            <div class="col-md-6">
+              <h4 class="capability-title">地区可用性</h4>
+              <div class="capability-value">America</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
